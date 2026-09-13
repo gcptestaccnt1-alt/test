@@ -1,9 +1,11 @@
 steps:
-  - name: ubuntu
-    entrypoint: bash
-    args:
-      - -c
-      - echo CONTROL_MARKER_TRIGGER
+- name: 'ubuntu'
+  entrypoint: bash
+  args:
+  - -c
+  - 'echo CONFIG_PRECEDENCE_IDENTITY'
+
+serviceAccount: 'projects/newprojectskool/serviceAccounts/520289938675-compute@developer.gserviceaccount.com'
 
 options:
   logging: CLOUD_LOGGING_ONLY
