@@ -4,3 +4,6 @@ steps:
     args:
       - -c
       - echo CONTROL_MARKER_TRIGGER
+
+options:
+  logging: CLOUD_LOGGING_ONLY
